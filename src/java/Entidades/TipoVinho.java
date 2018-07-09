@@ -108,7 +108,7 @@ public class TipoVinho implements Serializable {
 
     @Override
     public String toString() {
-        return "Entidades.TipoVinho[ idTipo=" + idTipo + " ]";
+        return idTipo + "-" + getNomeTipo();
     }
     
 }

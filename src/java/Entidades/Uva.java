@@ -110,7 +110,7 @@ public class Uva implements Serializable {
 
     @Override
     public String toString() {
-        return "Entidades.Uva[ idUva=" + idUva + " ]";
+        return idUva + "-" + getNomeUva();
     }
     
 }
